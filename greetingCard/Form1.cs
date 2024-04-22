@@ -34,7 +34,7 @@ namespace greetingCard
             g.FillRectangle(redBrush, 0, 50, 750, 360);
             g.FillRectangle(yellowBrush, 0, 100, 750, 260);
             g.FillRectangle(blackBrush, 0, 150, 750, 150);
-            ///this section makes the bacground using the falg colours
+            ///this section makes the bacground using the flag colours
 
             g.DrawLine(goldPen, 410, 320, 410, 200);
             g.TranslateTransform(410, 237);
@@ -62,6 +62,9 @@ namespace greetingCard
             ///I did not make them global 
             ///here they are again
 
+            Refresh();
+            Thread.Sleep(250);
+            
             g.Clear(Color.Green);
             g.FillRectangle(redBrush, 0, 50, 750, 360);
             g.FillRectangle(yellowBrush, 0, 100, 750, 260);
