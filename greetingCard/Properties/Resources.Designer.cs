@@ -68,5 +68,14 @@ namespace greetingCard.Properties {
                 return ResourceManager.GetStream("_5_Sec_Crowd_Cheer_Mike_Koenig_1562033255", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Shotgun_Blast_Jim_Rogers_1914772763 {
+            get {
+                return ResourceManager.GetStream("Shotgun_Blast_Jim_Rogers_1914772763", resourceCulture);
+            }
+        }
     }
 }

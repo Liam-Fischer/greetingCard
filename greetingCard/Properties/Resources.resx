@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Shotgun_Blast_Jim_Rogers_1914772763" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shotgun_Blast-Jim_Rogers-1914772763.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="_5_Sec_Crowd_Cheer_Mike_Koenig_1562033255" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5_Sec_Crowd_Cheer-Mike_Koenig-1562033255.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

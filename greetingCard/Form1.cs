@@ -91,11 +91,14 @@ namespace greetingCard
                 g.FillRectangle(blackBrush, 0, 150, 750, 150);
                 g.DrawString("19", numFont, numberBrush, i + 30, 185);
                 g.DrawString("80", numFont, numberBrush, 630 - i, 185);
-                g.DrawString("Happy Zimbabwean Indipendence Day!", font, writingBrush, 120, 200);
-                Thread.Sleep(19);
+                g.DrawString("Happy Zimbabwean Independence Day!", font, writingBrush, 120, 200);
+                Thread.Sleep(18);
             }
             ///This loop moves the year of indipendence to the middle of the screen
-            
+            SoundPlayer boom = new SoundPlayer(Properties.Resources.Shotgun_Blast_Jim_Rogers_1914772763);
+                boom.Play();
+
+            Thread.Sleep(1300);
             SoundPlayer cheer = new SoundPlayer(Properties.Resources._5_Sec_Crowd_Cheer_Mike_Koenig_1562033255);
             cheer.Play();
             ///The real day of Zimbabwean Indipendence is April 18th
