@@ -56,8 +56,10 @@ namespace greetingCard
             SolidBrush yellowBrush = new SolidBrush(Color.Gold);
             SolidBrush redBrush = new SolidBrush(Color.Red);
             SolidBrush writingBrush = new SolidBrush(Color.PapayaWhip);
+            SolidBrush numberBrush = new SolidBrush(Color.Teal);
             Pen goldPen = new Pen(Color.Goldenrod, 10);
             Font font = new Font ("Ariel Rounded MT", 22, FontStyle.Regular);
+            Font numFont = new Font ("Goudy Stout", 50, FontStyle.Regular);
             ///these are all my tools 
             ///I did not make them global 
             ///here they are again
@@ -80,6 +82,20 @@ namespace greetingCard
                 Thread.Sleep(10);
             }
             ///this loop moves the text from the top to around the middle
+            
+            for (int i = 0; i <= 250; i++)
+            {
+                g.Clear(Color.Green);
+                g.FillRectangle(redBrush, 0, 50, 750, 360);
+                g.FillRectangle(yellowBrush, 0, 100, 750, 260);
+                g.FillRectangle(blackBrush, 0, 150, 750, 150);
+                g.DrawString("19", numFont, numberBrush, i + 30, 185);
+                g.DrawString("80", numFont, numberBrush, 630 - i, 185);
+                g.DrawString("Happy Zimbabwean Indipendence Day!", font, writingBrush, 120, 200);
+                Thread.Sleep(19);
+            }
+            ///This loop moves the year of indipendence to the middle of the screen
+            
             SoundPlayer cheer = new SoundPlayer(Properties.Resources._5_Sec_Crowd_Cheer_Mike_Koenig_1562033255);
             cheer.Play();
             ///The real day of Zimbabwean Indipendence is April 18th
